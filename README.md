@@ -1,6 +1,17 @@
 # docker-learn
 
-# docker commands
+![overview](images/containers.drawio.png "diagram example")
+
+## Tutorials
+Video I watched to learn about k8s: [YouTube](https://youtu.be/eGz9DS-aIeY?si=MiUADLNeIvVApov2)
+
+## Example
+1. $ docker pull centos
+2. $ docker run -d -t --name myfirstcontainer centos
+3. $ docker ps
+4. $ docker exec -it myfirstcontainer bash
+
+## Docker common commands
 
 To build an image
 - docker build .
